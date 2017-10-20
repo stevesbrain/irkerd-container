@@ -4,5 +4,5 @@ irc-git:
   volumes:
         - '/dev/log:/dev/log'
   ports:
-          - "6659:6659"
+          - "127.0.0.1:6659:6659"
   stdin_open: true
