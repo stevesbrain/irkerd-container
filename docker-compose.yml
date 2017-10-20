@@ -1,0 +1,8 @@
+irc-git:
+  image: 'vanityshed/irkerd-container'
+  restart: always
+  volumes:
+        - '/dev/log:/dev/log'
+  ports:
+          - "6659:6659"
+  stdin_open: true
